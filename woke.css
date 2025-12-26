@@ -1,0 +1,97 @@
+@chaset "UTF-8";
+
+
+
+
+  
+ *{
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  
+  
+  body{
+  background-color: #FFC401;
+  height: 100vh;
+  }
+  
+  h1{
+    font-family: serif;
+  }
+  
+  h1.importante{
+  background-color: blue;
+  color: white;
+  margin: 0px;
+  padding: 10px;
+  border-bottom: 10px solid #0A0F4C;
+  
+  }
+  
+  div.fundo, div.fundo_triste{
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 5px 0px #00000099;
+    
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid #D3D3D3 ;
+    border-top: none;
+  }
+  div.fundo_triste > h1{
+    text-align: center;
+  }
+  
+  div.fundo > h1.afirmacao{
+    text-align: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  div.form{
+    margin: 10px;
+  }
+  
+  input#enviar{
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    
+  }
+  div#quest2, div#quest3, div#quest4{
+    display: none;
+  }
+  div.img{
+    height: 200px;
+    width: 200px;
+    background: url("woke_img/morra.png");
+    background-size: cover;
+    display: none;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  div.img2{
+    height: 200px;
+    width: 200px;
+    background: url("woke_img/serio.jpg");
+    background-size: cover;
+    margin: 0px auto;
+    margin-bottom: 10px;
+  }
+  div.fundo_triste{
+    display: none;
+  }
+  div.img3{
+    height: 200px;
+    width: 200px;
+    background: url("woke_img/pena.jpg");
+
+    background-size: cover;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    
+  }
