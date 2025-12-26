@@ -59,7 +59,7 @@ function env2()
     
   }else if(box1.checked == true){
     
-    window.alert('nao mente')
+    window.alert('Não mente')
     questionario2.style.display = 'none'
     questionario3.style.display = 'block'
     quest_text3.innerText = `Para ${nomes[0]}, sem mentiras dessa vez, responde com sinceridade. ${nomes[0]} Você ja fez sexo?`
