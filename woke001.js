@@ -62,7 +62,7 @@ function env2()
     window.alert('Não mente')
     questionario2.style.display = 'none'
     questionario3.style.display = 'block'
-    quest_text3.innerText = `Para ${nomes[0]}, sem mentiras dessa vez, responde com sinceridade. ${nomes[0]} Você ja fez sexo?`
+    quest_text3.innerText = `Não minta pra min ${nomes[0]} eu sou esperto`
   }else{
     
     questionario2.style.display = 'none'
@@ -87,7 +87,7 @@ function env2()
     window.alert('KKKKKKKKKK')
     questionario3.style.display = 'none'
     questionario4.style.display = 'block'
-    quest_text4.innerHTML = `Você acha que engana quem ${nomes[0]}? admita agora que você é um virgem do caralho`
+    quest_text4.innerHTML = `Você acha que engana quem?`
   }else{
     
     window.alert('finalmente foi sincero em')
@@ -105,7 +105,7 @@ function env4()
     window.alert('Seleciona logo e admita')
     
   }else{
-    res.innerHTML = 'EU JA SABIA!!!'
+    res.innerHTML = 'QUE OTARIO KKKKKK'
     julgamento.style.display = 'none'
     imagem.style.display = 'block'
   }
